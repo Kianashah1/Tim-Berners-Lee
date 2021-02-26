@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 #welcome {
@@ -80,6 +81,7 @@ h2 {
     left: 30px;
     z-index: 10;
     cursor: pointer;
+    list-style: none;
 
 }
 .links{
@@ -94,4 +96,13 @@ h2 {
 .links:hover{
     background-color: blueviolet;
     
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color:darkorchid;
+}
+html{
+    scroll-behavior: smooth;
 }
